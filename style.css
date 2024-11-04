@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Create{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: nowrap;
+}
+
+.Create .content{
+    width: 380px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    background: orange ;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.container {
+    width: 380px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-items: center;
+    background: orange ;
+    border-radius: 10px;
+    margin-top: 40px;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    visibility: hidden;
+}
+
+.content input{
+    width: 300px;
+    height: 40px;
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.content input:hover{
+    border: 2px solid rgb(21, 255, 0);
+}
+.content button{
+    width: 200px;
+    height: 50px;
+    color: rgb(232, 232, 232);
+    background-color: brown;
+    cursor: pointer;
+    outline: none;
+    border: none;
+};
+.container button{
+    width: 200px;
+    height: 50px;
+    color: rgb(232, 232, 232);
+    background-color: brown;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+/* .Contact{
+    text-align: center;
+    width: 1000px;
+    height: 400px;
+    background: rgb(234, 230, 228);
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+ */
+ 
+.Contact{
+    width: 600px;
+    height: 400px;
+    background-color: chocolate;
+    overflow: scroll;
+}
+
+.Contact img{
+    width: 50px;
+    height: 50px;
+}
+
+
